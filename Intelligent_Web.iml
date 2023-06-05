@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -7,5 +12,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="lib-src" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.26" level="project" />
+    <orderEntry type="library" name="jar_files (1)" level="project" />
+    <orderEntry type="library" name="virt_jena3" level="project" />
+    <orderEntry type="library" name="jena-jdbc-driver-remote-3.8.0" level="project" />
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="d2rq-0.8.1" level="project" />
   </component>
 </module>

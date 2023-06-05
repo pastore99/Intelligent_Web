@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="d2rq-0.8.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/Downloads/d2rq-0.8.1/d2rq-0.8.1/d2rq-0.8.1/lib/d2rq-0.8.1.jar!/" />
+      <root url="file://$USER_HOME$/Downloads/d2rq-0.8.1/d2rq-0.8.1/d2rq-0.8.1/lib/arq-2.9" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$USER_HOME$/Downloads/d2rq-0.8.1/d2rq-0.8.1/d2rq-0.8.1/lib/arq-2.9" recursive="false" />
+  </library>
+</component>
