@@ -2,7 +2,7 @@ import com.hp.hpl.jena.query.*;
 import com.hp.hpl.jena.rdf.model.Model;
 import de.fuberlin.wiwiss.d2rq.jena.ModelD2RQ;
 
-public class prova3 {
+public class query1 {
     public static void main(String[] args){ //d2r
         Model m = new ModelD2RQ("outfile.ttl");
 
