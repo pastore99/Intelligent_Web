@@ -15,12 +15,13 @@
 <div class="container">
   <div class="row justify-content-center mt-5">
     <div class="col-lg-6">
-      <form id="queryForm">
+      <form action="QueryServlet" method="post">
         <div class="form-group">
           <label for="query">Inserisci la tua query:</label>
-          <textarea type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
+          <textarea name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary center">Esegui query</button>
+
+       <button type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
       </form>
     </div>
   </div>
