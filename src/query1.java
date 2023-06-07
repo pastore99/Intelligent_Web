@@ -4,7 +4,7 @@ import de.fuberlin.wiwiss.d2rq.jena.ModelD2RQ;
 
 public class query1 {
     public static void main(String[] args){ //d2r
-        Model m = new ModelD2RQ("outfile.ttl");
+        Model m = new ModelD2RQ("C://Users//Carmine//IdeaProjects//Intelligent_Web//outfile.ttl");
 
         String queryString = """
                 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

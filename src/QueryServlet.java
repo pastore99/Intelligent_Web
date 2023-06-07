@@ -11,7 +11,7 @@ import java.io.IOException;
 
 @WebServlet(name = "QueryServlet", value = "/QueryServlet")
 public class QueryServlet extends HttpServlet {
-    Model m = new ModelD2RQ("outfile.ttl");
+    Model m = new ModelD2RQ("C://Users//Carmine//IdeaProjects//Intelligent_Web//outfile.ttl");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
