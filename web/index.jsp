@@ -1,20 +1,25 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Carmine
-  Date: 07/06/2023
-  Time: 15:10
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="com.hp.hpl.jena.query.QuerySolution" %>
+<%@ page import="java.util.List" %>
+<%
+    List<QuerySolution> elementi = (List<QuerySolution>) request.getAttribute("elementiQuery");
+%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-<form action="QueryServlet" method="post">
-    <textarea name="querySparql" rows="5" cols="40"></textarea>
-    <br>
-    <input type="submit" value="Invia">
+<div class="row justify-content-center mt-4">
+    <div class="col-lg-6">
+        <h4>Risultati della query:</h4>
+        <ul id="queryResults"></ul>
+        <%
+            for (QuerySolution valore : elementi) {
+        %>
+        <li><%= valore %></li>
+        <% } %>
+    </div>
+</div>
 </form>
 </body>
 </html>

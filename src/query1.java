@@ -2,34 +2,27 @@ import com.hp.hpl.jena.query.*;
 import com.hp.hpl.jena.rdf.model.Model;
 import de.fuberlin.wiwiss.d2rq.jena.ModelD2RQ;
 
+import java.util.List;
+
 public class query1 {
     public static void main(String[] args){ //d2r
-        Model m = new ModelD2RQ("C://Users//Carmine//IdeaProjects//Intelligent_Web//outfile.ttl");
+        Model m = new ModelD2RQ("C://Users//Carmine//Downloads//d2r-server-0.7//d2r-server-0.7//fuori.ttl");
 
-        String queryString = """
-                PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-                PREFIX owl: <http://www.w3.org/2002/07/owl#>
-                PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-                PREFIX vocab: <http://localhost:2020/vocab/resource/>
-                PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-                PREFIX map: <file:/C:/Users/rocco/OneDrive%20-%20Universit�%20di%20Salerno/Downloads/d2r-server-0.7/d2r-server-0.7/outfile.ttl#>
-                PREFIX db: <http://localhost:2020/resource/>
-                SELECT DISTINCT * WHERE {
-                  ?senatore a vocab:mytable.
-                  ?senatore vocab:mytable_nome ?nome.
-                  ?senatore vocab:mytable_cognome ?cognome.
-                  ?senatore vocab:mytable_tipoMandato ?mandato.
-                  ?senatore vocab:mytable_legislatura ?legislatura.
-                  ?senatore vocab:mytable_inizioMandato ?inizioMandato.
-                  ?senatore vocab:mytable_tipoMandato ?tipoMandato.
-                } ORDER BY ?cognome ?nome LIMIT 10""";
+        String queryString = "SELECT DISTINCT * WHERE {\n" +
+                "  ?senatore ?proprieta ?oggetto\n" +
+                "}\n" +
+                "LIMIT 30";
         Query q = QueryFactory.create(queryString);
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();
+        //System.out.println(rs.getResultVars() + "  prova variabili");
+        List<String> variabili = rs.getResultVars();
+        int i =0;
         while (rs.hasNext()){
             QuerySolution row = rs.nextSolution();
-            System.out.println(row);
+            for(String e : variabili){
+                System.out.println(e + "    " + row.get(e) + " ********* elemento" + i++);
+            }
         }
-
        m.close();
     }
 }

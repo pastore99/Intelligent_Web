@@ -1,3 +1,6 @@
+<%@ page import="java.util.List" %>
+<%@ page import="com.hp.hpl.jena.query.QuerySolution" %>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,10 +21,10 @@
       <form action="QueryServlet" method="post">
         <div class="form-group">
           <label for="query">Inserisci la tua query:</label>
-          <textarea name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
+          <textarea id="queryArea" name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
         </div>
 
-       <button type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
+       <button id="esegui" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
       </form>
     </div>
   </div>
@@ -34,13 +37,15 @@
   <div class="row justify-content-center mt-4">
     <div class="col-lg-6">
       <h4>Risultati della query:</h4>
-      <ul id="queryResults"></ul>
+      <div id="risultatoQuery">
+      </div>
+
     </div>
   </div>
-
 </div>
 
 <script>
+  document.getElementById("esegui").addEventListener("click", eseguiQuery);
   function addText(text) {
     document.getElementById('query').value = text;
   }
@@ -48,11 +53,13 @@
   document.getElementById('queryForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var query = document.getElementById('query').value;
+
     // Effettua l'elaborazione della query o l'invio al server
     // ...
     displayQueryResult('Risultato della query: ' + query);
     document.getElementById('query').value = '';
   });
+
 
 </script>
 </body>
