@@ -9,19 +9,6 @@
 @prefix d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
 @prefix meta: <http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/metadata#> .
 
-<> a d2r:Server;
-  rdfs:label "My D2R Server";
-  d2r:baseURI <http://localhost:2020/>;
-  d2r:port 2020;
-  d2r:vocabularyIncludeInstances true;
-  d2r:sparqlTimeout 300;
-  d2r:pageTimeout 5;
-  meta:datasetTitle "Prova Senatori" ;
-  meta:datasetDescription "My dataset contains many nice resources." ;
-  meta:datasetSource "This other dataset" ;
-  meta:operatorName "root" ;
-  meta:operatorHomepage  ;
-  .
 map:database a d2rq:Database;
 	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
 	d2rq:jdbcDSN "jdbc:mysql://localhost:3306/provasenatori";

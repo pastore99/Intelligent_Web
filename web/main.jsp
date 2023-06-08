@@ -1,6 +1,4 @@
 <%@ page import="java.util.List" %>
-<%@ page import="com.hp.hpl.jena.query.QuerySolution" %>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,10 +19,10 @@
       <form action="QueryServlet" method="post">
         <div class="form-group">
           <label for="query">Inserisci la tua query:</label>
-          <textarea id="queryArea" name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
+          <textarea name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
         </div>
 
-       <button id="esegui" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
+       <button type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
       </form>
     </div>
   </div>
@@ -37,15 +35,36 @@
   <div class="row justify-content-center mt-4">
     <div class="col-lg-6">
       <h4>Risultati della query:</h4>
-      <div id="risultatoQuery">
-      </div>
+      <ul id="queryResults"></ul>
+      <ul>
+        <%
 
+          List<String> variabili = (List<String>) request.getAttribute("variabili");
+          if (variabili != null){%>
+        <li><%= variabili %></li>
+        <%
+
+          // Ottieni l'attributo dalla richiesta
+          List<String> risultati = (List<String>) request.getAttribute("risultati");
+          if (risultati != null){
+
+            // Itera sui risultati e visualizzali
+            for (String risultato : risultati) {
+              if (risultato.contains("C:/")) {%>
+        <li> <a href="/RisorsaServlet?senatore=<%=risultato.replace("#","%23")%>"> <%=risultato%> </a> </li>
+        <%
+          System.out.println(risultato);
+        }else{
+        %>
+        <li><%= risultato %></li>
+        <% } } } }%>
+      </ul>
     </div>
   </div>
+
 </div>
 
 <script>
-  document.getElementById("esegui").addEventListener("click", eseguiQuery);
   function addText(text) {
     document.getElementById('query').value = text;
   }
@@ -53,13 +72,11 @@
   document.getElementById('queryForm').addEventListener('submit', function(event) {
     event.preventDefault();
     var query = document.getElementById('query').value;
-
     // Effettua l'elaborazione della query o l'invio al server
     // ...
     displayQueryResult('Risultato della query: ' + query);
     document.getElementById('query').value = '';
   });
-
 
 </script>
 </body>

@@ -1,25 +1,33 @@
-<%@ page import="com.hp.hpl.jena.query.QuerySolution" %>
-<%@ page import="java.util.List" %>
-<%
-    List<QuerySolution> elementi = (List<QuerySolution>) request.getAttribute("elementiQuery");
-%>
+<%@ page import="java.util.List" %><%--
+  Created by IntelliJ IDEA.
+  User: Carmine
+  Date: 07/06/2023
+  Time: 15:10
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <title>Title</title>
 </head>
 <body>
-<div class="row justify-content-center mt-4">
-    <div class="col-lg-6">
-        <h4>Risultati della query:</h4>
-        <ul id="queryResults"></ul>
+<form action="QueryServlet" method="post">
+    <textarea name="querySparql" rows="5" cols="40"></textarea>
+    <br>
+    <input type="submit" value="Invia">
+    <h1>Risultati Query</h1>
+    <ul>
         <%
-            for (QuerySolution valore : elementi) {
+            // Ottieni l'attributo dalla richiesta
+            List<String> risultati = (List<String>) request.getAttribute("risultati");
+            if (risultati != null){
+
+            // Itera sui risultati e visualizzali
+            for (String risultato : risultati) {
         %>
-        <li><%= valore %></li>
-        <% } %>
-    </div>
-</div>
+        <li><%= risultato %></li>
+        <% } }%>
+    </ul>
 </form>
 </body>
 </html>
