@@ -7,8 +7,8 @@ import java.util.List;
 public class query1 {
     public static void main(String[] args){
         System.out.println(0);//d2r
-        Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
-
+        Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile.ttl");
+        //
         String queryString = "SELECT DISTINCT ?property ?hasValue ?isValueOf\n" +
                 "WHERE {\n" +
                 "  {  <C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/http%3A%2F%2Fdati.senato.it%2Fsenatore%2F1103> ?property ?hasValue }\n" +

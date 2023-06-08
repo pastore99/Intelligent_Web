@@ -8,23 +8,56 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-  <title>Tabella</title>
+  <title>IntelligentWeb</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<form action="QueryServlet" method="post">
-  <h1>Risultati Query</h1>
-  <ul>
-    <%
-      // Ottieni l'attributo dalla richiesta
-      List<String> risultatisenatore = (List<String>) request.getAttribute("risultatisenatore");
-      if (risultatisenatore != null){
+<div class="col-lg-10">
+  <h4>La risorsa ha le seguenti proprieta':</h4>
+  <div class="row justify-content-center ">
+    <div class="col-lg-10">
+      <div class="container">
+        <table class="table">
+          <thead>
+          <tr>
+            <%
+              List<String> variabili = (List<String>) request.getAttribute("variabili");
+              List<String> risultati = (List<String>) request.getAttribute("risultatisenatore");
+              System.out.println(variabili + "jsp var*********");
+              System.out.println(risultati + "jsp ris************");
+              if (variabili != null){
+                for(String temp : variabili){
+            %>
+            <th><%=temp%></th>
 
-        // Itera sui risultati e visualizzali
-        for (String risultato : risultatisenatore) {
-    %>
-    <li><%= risultato %></li>
-    <% } }%>
-  </ul>
-</form>
+            <%}%>
+          </tr>
+          </thead>
+          <tbody>
+            <%
+
+                if (risultati != null){
+                    int j=0;
+                  while (j < risultati.size()){
+                      int i = 0  ;%>
+          <tr>
+            <%
+
+              while( i++ < variabili.size()){
+            %>
+            <td><%=risultati.get(j++)%></td>
+            <%} }%>
+          </tr>
+
+
+
+      </div>
+    </div>
+  </div>
+  <% }  %>
+  </tbody>
+  </table> <%} %>
+
+</div>
 </body>
 </html>

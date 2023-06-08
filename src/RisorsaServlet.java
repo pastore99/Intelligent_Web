@@ -14,7 +14,7 @@ import java.util.List;
 @WebServlet(name = "RisorsaServlet", value = "/RisorsaServlet")
 public class RisorsaServlet extends HttpServlet {
 
-    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
+    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile.ttl");
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String senatore = req.getParameter("senatore");
@@ -44,7 +44,8 @@ public class RisorsaServlet extends HttpServlet {
 //            System.out.println(row);
 //            risultati.add(row.toString());
 //        }
-
+        System.out.println(risultati);
+        System.out.println(variabili);
         req.setAttribute("variabili", variabili);
         req.setAttribute("risultatisenatore", risultati);
         req.getRequestDispatcher("senatore.jsp").forward(req, resp);

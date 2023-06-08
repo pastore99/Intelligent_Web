@@ -13,7 +13,7 @@ import java.util.List;
 
 @WebServlet(name = "QueryServlet", value = "/QueryServlet")
 public class QueryServlet extends HttpServlet {
-    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
+    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile.ttl");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
