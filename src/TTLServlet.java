@@ -23,7 +23,7 @@ public class TTLServlet extends HttpServlet {
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();
 
         m.close();
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/main.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
 
     }

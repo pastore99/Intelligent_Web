@@ -14,12 +14,15 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 @WebServlet(name = "JSONServlet", value = "/JSONServlet")
 public class JSONServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
+        Random random = new Random();
+        int numeroRandom = random.nextInt(587456);
+        Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile.ttl");
         String querySparqlString = req.getParameter("contenuto");
         System.out.println(querySparqlString);
         Query q = QueryFactory.create(querySparqlString);
@@ -44,7 +47,7 @@ public class JSONServlet extends HttpServlet {
                 String json = new Gson().toJson(risultati);
                 System.out.println(json);
 
-                File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//src//query.json");
+                File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//src//query" + numeroRandom + ".json");
                 try (FileWriter fileWriter = new FileWriter(f)) {
             fileWriter.write(json);
             System.out.println("File XML creato correttamente.");
@@ -69,7 +72,7 @@ public class JSONServlet extends HttpServlet {
 //        }
 
         m.close();
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/main.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
 
     }
