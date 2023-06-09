@@ -12,11 +12,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-<div class="col-lg-10">
-  <h4>La risorsa ha le seguenti proprieta':</h4>
+<div class="container-fluid">
+  <div class="row justify-content-center mt-2">
+    <div class="col-lg-8 text-center">
+      <img src="semantic.jpg" class="img-fluid" style="height: 200px" alt="semantic">
+    </div>
+<div class="col-10">
+  <h5 class="text-center my-2">La risorsa ha le seguenti propriet&agrave;:</h5>
   <div class="row justify-content-center ">
     <div class="col-lg-10">
-      <div class="container">
         <table class="table">
           <thead>
           <tr>
@@ -50,14 +54,10 @@
           </tr>
 
 
-
-      </div>
-    </div>
-  </div>
   <% }  %>
   </tbody>
   </table> <%} %>
-
+    </div>
 </div>
 </body>
 </html>

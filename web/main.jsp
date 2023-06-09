@@ -15,32 +15,41 @@
     </div>
   </div>
 </div>
-<div class="container">
-  <div class="row justify-content-center mt-5">
-    <div class="col-lg-6">
-      <form action="QueryServlet" method="post">
-        <div class="form-group">
+<div class="container-fluid">
+    <form class="row justify-content-center" action="QueryServlet" method="post">
+    <div class="col-6">
+        <div class="row align-items-end">
+            <div class="col-2">
+                <button type="button" class="btn btn-secondary w-100" onclick="addText('Query 1')">Query 1</button>
+                <button type="button" class="btn btn-secondary w-100 mt-3" onclick="addText('Query 2')">Query 2</button>
+            </div>
+        <div class="col-8">
           <label for="query">Inserisci la tua query:</label>
           <textarea id="queryArea" name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
         </div>
+          <div class="col-2">
+              <button type="button" class="btn btn-secondary w-100" onclick="addText('Query 1')">Query 1</button>
+              <button type="button" class="btn btn-secondary w-100 mt-3" onclick="addText('Query 2')">Query 2</button>
+          </div>
+        </div>
+        <div class="col-12 text-center mt-4">
+            <button id="esegui" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
+            <button id="btn1" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
+            <button id="btn2" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
+        </div>
 
-       <button id="esegui" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
-      </form>
+
+    </div>
+</form>
+  <div class="row justify-content-center mt-4">
+    <div class="col-lg-6">
+
     </div>
   </div>
   <div class="row justify-content-center mt-4">
-    <div class="col-lg-6">
-      <button type="button" class="btn btn-secondary" onclick="addText('Query 1')">Query 1</button>
-      <button type="button" class="btn btn-secondary" onclick="addText('Query 2')">Query 2</button>
-    </div>
-  </div>
-  <div class="row justify-content-center mt-4">
-    <div class="col-lg-6">
+    <div class="col-10">
       <h4>Risultati della query:</h4>
-      <div class="row justify-content-center ">
-        <div class="col-lg-6">
-          <div class="container">
-            <table class="table">
+            <table class="table table-striped">
               <thead>
               <tr>
             <%
@@ -78,18 +87,9 @@
               <td><%=risultati.get(j++)%></td>
                   <%} }%>
                   </tr>
-
-
-
-          </div>
-        </div>
-      </div>
         <% } } %>
         </tbody>
         </table> <%} %>
-
-    </div>
-  </div>
 
 </div>
 
