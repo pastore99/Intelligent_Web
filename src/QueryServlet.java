@@ -13,7 +13,7 @@ import java.util.List;
 
 @WebServlet(name = "QueryServlet", value = "/QueryServlet")
 public class QueryServlet extends HttpServlet {
-    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile.ttl");
+    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -27,8 +27,14 @@ public class QueryServlet extends HttpServlet {
         while (rs.hasNext()){
             QuerySolution row = rs.nextSolution();
             for(String e : variabili){
-                System.out.println(e + "    " + row.get(e) + " ********* elemento" + i++);
-                risultati.add(row.get(e).toString());
+                //System.out.println(e + "    " + row.get(e) + " ********* elemento" + i++);
+                if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#date")){
+                            risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#date"," "));
+                }else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#int")) {
+                    risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#int", " "));
+                } else {
+                    risultati.add(row.get(e).toString());
+                }
             }}
         // Esempio: Aggiungi alcuni risultati fittizi
 //        resp.setContentType("text/plain");

@@ -16,7 +16,7 @@
   </div>
 </div>
 <div class="container-fluid">
-    <form class="row justify-content-center" action="QueryServlet" method="post">
+    <form class="row justify-content-center" method="post">
     <div class="col-6">
         <div class="row align-items-end">
             <div class="col-2">
@@ -33,9 +33,9 @@
           </div>
         </div>
         <div class="col-12 text-center mt-4">
-            <button id="esegui" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
-            <button id="btn1" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
-            <button id="btn2" type="submit" class="btn btn-primary center" value="Invia">Esegui query</button>
+            <button id="esegui" type="submit" class="btn btn-primary center" value="Invia" formaction="QueryServlet">Esegui query</button>
+            <button id="btn1" class="btn btn-primary center" onclick="inviaContenuto('/XMLServlet')">XML</button>
+            <button id="btn2" class="btn btn-primary center" onclick="inviaContenuto('/JSONServlet')">JSON</button>
         </div>
 
 
@@ -74,12 +74,12 @@
                 <%
 
                     while( i++ < variabili.size()){
-                        if(risultati.get(j).contains("^^http://www.w3.org/2001/XMLSchema#date")){
-                            risultati.get(j).replace("http://www.w3.org/2001/XMLSchema#date"," ");
-                        }
-                        if(risultati.get(j).contains("http://www.w3.org/2001/XMLSchema#int")){
-                            risultati.get(j).replace("http://www.w3.org/2001/XMLSchema#int"," ");
-                        }
+//                        if(risultati.get(j).contains("^^http://www.w3.org/2001/XMLSchema#date")){
+//                            risultati.get(j).replace("http://www.w3.org/2001/XMLSchema#date"," ");
+//                        }
+//                        if(risultati.get(j).contains("http://www.w3.org/2001/XMLSchema#int")){
+//                            risultati.get(j).replace("http://www.w3.org/2001/XMLSchema#int"," ");
+//                        }
               %>
                     <%if (risultati.get(j).contains("C:/")) {%>
               <td> <a href="/RisorsaServlet?senatore=<%=risultati.get(j).replace("#","%23")%>"> <%=risultati.get(j++)%> </a> </td>
@@ -92,9 +92,11 @@
         </table> <%} %>
 
 </div>
+  </div>
+</div>
 
 <script>
-  document.getElementById("esegui").addEventListener("click", eseguiQuery);
+  // document.getElementById("esegui").addEventListener("click", eseguiQuery);
   function addText(text) {
     document.getElementById('query').value = text;
   }
@@ -109,20 +111,25 @@
     document.getElementById('query').value = '';
   });
 
-  function inviaContenuto() {
+  function showAlert(x) {
+      alert("File" + x + " creato correttamente");
+  }
+
+  function inviaContenuto(x) {
     var contenuto = document.getElementById("queryArea").value;
 
     // Effettua una richiesta HTTP POST alla servlet
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "/XMLServlet", true);
+    xhr.open("POST", x, true);
     xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
     xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
+      if (xhr.readyState === 4 || xhr.status === 200) {
         // La richiesta è stata completata con successo
         console.log("Contenuto inviato con successo alla servlet.");
       }
     };
     xhr.send("contenuto=" + encodeURIComponent(contenuto));
+      showAlert(x);  // Chiama la funzione showAlert() per mostrare l'alert
   }
 
 </script>
