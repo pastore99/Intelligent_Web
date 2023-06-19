@@ -49,7 +49,7 @@
             <button id="esegui" type="submit" class="btn btn-primary center" value="Invia" formaction="QueryServlet">Esegui query</button>
             <button id="btn1" class="btn btn-primary center" onclick="inviaContenuto('/XMLServlet')">XML</button>
             <button id="btn2" class="btn btn-primary center" onclick="inviaContenuto('/JSONServlet')">JSON</button>
-            <button id="btn3" class="btn btn-primary center" onclick="inviaContenuto('/RDFServlet')">RDF</button>
+            <%--<button id="btn3" class="btn btn-primary center" onclick="inviaContenuto('/RDFServlet')">RDF</button>--%>
         </div>
 
 
