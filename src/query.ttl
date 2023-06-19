@@ -1,0 +1,1024 @@
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36410>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Nave" , "19" , "Luigi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36422>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Salvatore" , "elettivo" , "2022-10-13" , "Sallemi" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25558>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Bernini" , "elettivo" , "2022-10-13" , "19" , "Anna Maria" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36434>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Sabrina" , "elettivo" , "Licheri" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1103>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Maurizio" , "Gasparri" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36446>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Sandro" , "19" , "Sisler" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1672>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Napolitano" , "2022-10-13" , "19" , "di diritto e a vita, Presidente emerito della Repubblica" , "Giorgio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32619>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Gabriella" , "elettivo" , "2022-10-13" , "19" , "Di Girolamo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32578>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Alfieri" , "Alessandro" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32699>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Isabella" , "Rauti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36392>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Camusso" , "elettivo" , "2022-10-13" , "19" , "Susanna Lina Giulia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/28924>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Verducci" , "elettivo" , "2022-10-13" , "19" , "Francesco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25402>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Sbrollini" , "elettivo" , "Daniela" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36411>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Nicita" , "elettivo" , "2022-10-13" , "19" , "Antonio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36447>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Spinelli" , "elettivo" , "2022-10-13" , "19" , "Domenica" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36423>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Roberto Maria Ferdinando" , "elettivo" , "2022-10-13" , "19" , "Scarpinato" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36435>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Marco" , "19" , "Lisei" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32703>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Tatjana" , "Rojc" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29132>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Bruno" , "19" , "Marton" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32727>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Unterberger" , "elettivo" , "2022-10-13" , "19" , "Julia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36381>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Vincenza" , "elettivo" , "2022-10-13" , "19" , "Aloisio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/4192>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Claudio" , "2022-10-13" , "19" , "Fazzone" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30110>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Calenda" , "elettivo" , "2022-10-13" , "19" , "Carlo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32650>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "La Pietra" , "Patrizio Giacomo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36393>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "De Priamo" , "elettivo" , "2022-10-13" , "19" , "Andrea" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36444>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Satta" , "elettivo" , "2022-10-13" , "19" , "Giovanni" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36420>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Rosa" , "elettivo" , "2022-10-13" , "Gianni" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/31725>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Annamaria" , "Furlan" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32706>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Romeo" , "Massimiliano" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33863>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Marco" , "19" , "Scurria" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29425>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Giorgis" , "2022-10-13" , "19" , "Andrea" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32435>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "a vita, di nomina del Presidente della Repubblica" , "2022-10-13" , "19" , "Segre" , "Liliana" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29521>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Dario" , "elettivo" , "2022-10-13" , "Parrini" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32677>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Andrea" , "Ostellari" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36390>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Cucchi" , "19" , "Ilaria" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29480>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Roberto" , "elettivo" , "2022-10-13" , "19" , "Marti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32653>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Ettore Antonio" , "elettivo" , "Licheri" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36421>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Russo" , "Raoul" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36433>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Gelmetti" , "elettivo" , "2022-10-13" , "19" , "Matteo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22914>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Craxi" , "elettivo" , "2022-10-13" , "Stefania Gabriella Anastasia" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36445>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Silvestro" , "Francesco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32608>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Croatti" , "elettivo" , "2022-10-13" , "Marco" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33022>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Manfredi" , "elettivo" , "2022-10-13" , "19" , "Potenti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22263>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Francesco Paolo" , "elettivo" , "2022-10-13" , "Sisto" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1116>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Antonino" , "elettivo" , "Germana'" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36391>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Damante" , "elettivo" , "2022-10-13" , "19" , "Concetta" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/28543>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "a vita, di nomina del Presidente della Repubblica" , "2022-10-13" , "19" , "Monti" , "Mario" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/34485>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Calandrini" , "Nicola" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/34243>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Andrea" , "Paganella" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/17542>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Balboni" , "elettivo" , "2022-10-13" , "19" , "Alberto" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36430>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Zedda" , "Antonella" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36442>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Rastrelli" , "elettivo" , "Sergio" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33946>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Gianpietro" , "elettivo" , "2022-10-13" , "19" , "Maffoni" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25429>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Giovanna" , "19" , "Petrenga" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33065>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Roberto" , "elettivo" , "2022-10-13" , "19" , "Cataldi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32603>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Ciriani" , "Luca" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/407>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Alessio" , "elettivo" , "2022-10-13" , "19" , "Butti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/3900>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Pera" , "Marcello" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32586>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Giorgio Maria" , "Bergesio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32598>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Cantu'" , "2022-10-13" , "Maria Cristina" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22707>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Augello" , "Andrea" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/28306>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Nello" , "elettivo" , "2022-10-13" , "19" , "Musumeci" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36443>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Salvitti" , "elettivo" , "2022-10-13" , "19" , "Giorgio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/23011>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Misiani" , "Antonio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36431>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Michele" , "elettivo" , "2022-10-13" , "19" , "Barcaiuolo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25377>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Verini" , "2022-10-13" , "19" , "Walter" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25474>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Beatrice" , "Lorenzin" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22871>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Biancofiore" , "2022-10-13" , "19" , "Michaela" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/4512>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Adriano" , "elettivo" , "Paroli" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32747>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Dario" , "elettivo" , "2022-10-13" , "19" , "Damiani" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32856>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Carmela" , "Bucalo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/2444>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Urso" , "elettivo" , "2022-10-13" , "19" , "Adolfo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/17924>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Andrea" , "Martella" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30510>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "a vita, di nomina del Presidente della Repubblica" , "2022-10-13" , "19" , "Carlo" , "Rubbia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22814>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "De Poli" , "Antonio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30915>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Paolo" , "elettivo" , "2022-10-13" , "19" , "Tosato" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36408>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Ester" , "elettivo" , "Mieli" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25407>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Matteo" , "Salvini" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32726>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Mario" , "Turco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30511>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "a vita, di nomina del Presidente della Repubblica" , "Elena" , "Cattaneo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32697>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Pucciarelli" , "Stefania" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32673>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Gisella" , "elettivo" , "2022-10-13" , "19" , "Naturale" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36441>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Salvo" , "elettivo" , "2022-10-13" , "Pogliese" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22910>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Giulia" , "elettivo" , "2022-10-13" , "19" , "Cosenza" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29406>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Fregolent" , "Silvia" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/18121>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Garnero Santanche'" , "Daniela" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36409>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Dafne" , "elettivo" , "Musolino" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1407>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Malan" , "elettivo" , "2022-10-13" , "19" , "Lucio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32628>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Fazzolari" , "Giovanbattista" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/34558>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Mennuni" , "elettivo" , "2022-10-13" , "19" , "Lavinia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32660>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Daniele" , "elettivo" , "2022-10-13" , "Manca" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30512>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "a vita, di nomina del Presidente della Repubblica" , "Renzo" , "2022-10-13" , "19" , "Piano" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36440>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Matera" , "elettivo" , "2022-10-13" , "19" , "Domenico" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30742>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Renzi" , "2022-10-13" , "19" , "Matteo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36389>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Carlo" , "Cottarelli" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36418>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Enza" , "Rando" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33005>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Paita" , "19" , "Raffaella" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36406>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Mazzella" , "elettivo" , "Orfeo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29467>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Simona Flavia" , "Malpezzi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32732>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Zaffini" , "elettivo" , "2022-10-13" , "19" , "Francesco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33096>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Claudio" , "2022-10-13" , "19" , "Durigon" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29292>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Borghesi" , "elettivo" , "2022-10-13" , "19" , "Stefano" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/30294>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Fina" , "Michele" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32691>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Elisa" , "elettivo" , "2022-10-13" , "19" , "Pirro" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1275>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "La Russa" , "elettivo" , "2022-10-13" , "19" , "Ignazio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36407>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Melchiorre" , "19" , "Filippo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36419>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Ernesto" , "19" , "Rapani" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33137>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Marco" , "19" , "Silvestroni" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29105>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Giacobbe" , "Francesco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32634>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Barbara" , "Floridia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1558>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Roberto" , "elettivo" , "2022-10-13" , "19" , "Menia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32779>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Roberto" , "Rosso" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32658>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Alessandra" , "elettivo" , "2022-10-13" , "19" , "Maiorino" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/17811>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Zanettin" , "Pierantonio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29293>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Borghi" , "elettivo" , "2022-10-13" , "19" , "Enrico" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36450>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Zullo" , "Ignazio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36399>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Aurora" , "2022-10-13" , "19" , "Floridia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36387>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Crisanti" , "elettivo" , "2022-10-13" , "19" , "Andrea" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36404>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Ada" , "Lopreiato" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/31010>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Bartolomeo" , "elettivo" , "2022-10-13" , "19" , "Amidei" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/18055>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Alberto" , "Losacco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36416>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Simona" , "elettivo" , "2022-10-13" , "19" , "Petrucci" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36428>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Speranzon" , "elettivo" , "2022-10-13" , "19" , "Raffaele" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29138>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Mirabelli" , "elettivo" , "2022-10-13" , "19" , "Franco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32601>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Castiello" , "elettivo" , "2022-10-13" , "19" , "Francesco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29573>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Ivan" , "Scalfarotto" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32988>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Alessandro" , "Morelli" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32681>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Patuanelli" , "2022-10-13" , "19" , "Stefano" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36388>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Guido" , "elettivo" , "Castelli" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36013>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Minasi" , "elettivo" , "2022-10-13" , "19" , "Tilde" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22966>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Mariastella" , "elettivo" , "2022-10-13" , "19" , "Gelmini" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36429>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Zambito" , "Ylenia" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29604>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Valente" , "Valeria" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36405>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Claudio" , "2022-10-13" , "19" , "Lotito" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36417>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Luca" , "Pirondini" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/31875>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Cecilia" , "D'Elia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32721>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Elena" , "Testor" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/24016>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Sandra" , "elettivo" , "2022-10-13" , "Zampa" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32624>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Durnwalder" , "elettivo" , "2022-10-13" , "19" , "Meinhard" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32600>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Maria Domenica" , "Castellone" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32583>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Barachini" , "elettivo" , "2022-10-13" , "19" , "Alberto" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29291>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Borghese" , "2022-10-13" , "19" , "Mario Alejandro" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36397>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Marta" , "elettivo" , "2022-10-13" , "19" , "Farolfi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/5799>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Dario" , "Franceschini" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36414>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Fausto" , "Orsomarso" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36426>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Spagnolli" , "elettivo" , "2022-10-13" , "19" , "Luigi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36402>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Elena" , "elettivo" , "2022-10-13" , "19" , "Leonardi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36438>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Paola" , "Mancini" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33110>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Elena" , "elettivo" , "2022-10-13" , "19" , "Murelli" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29447>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "La Marca" , "elettivo" , "2022-10-13" , "19" , "Francesca" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32655>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Lorefice" , "elettivo" , "2022-10-13" , "19" , "Pietro" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/18562>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Pirovano" , "elettivo" , "2022-10-13" , "19" , "Daisy" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1579>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Gianfranco" , "2022-10-13" , "19" , "Micciche'" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29490>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Meloni" , "elettivo" , "2022-10-13" , "Marco" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36396>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Marco" , "19" , "Dreosto" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36384>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Gianni" , "19" , "Berrino" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/520>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Pier Ferdinando" , "Casini" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25446>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Nastri" , "elettivo" , "2022-10-13" , "19" , "Gaetano" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25555>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Boccia" , "Francesco" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36398>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Anna Maria" , "Fallucchi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36386>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Bizzotto" , "elettivo" , "2022-10-13" , "Mara" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36403>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Liris" , "Guido Quintino" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36415>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Patton" , "elettivo" , "2022-10-13" , "19" , "Pietro" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32707>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Licia" , "elettivo" , "2022-10-13" , "19" , "Ronzulli" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36427>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Nicoletta" , "elettivo" , "2022-10-13" , "19" , "Spelgatti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36439>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Paolo" , "elettivo" , "2022-10-13" , "19" , "Marcheschi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Alberti Casellati" , "Maria Elisabetta" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29067>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Gian Marco" , "Centinaio" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29273>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Bazoli" , "elettivo" , "Alfredo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/1227>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Guidi" , "Antonio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36385>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Bevilacqua" , "Dolores" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/28670>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Graziano" , "elettivo" , "2022-10-13" , "19" , "Delrio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36400>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Silvio" , "elettivo" , "2022-10-13" , "19" , "Franceschelli" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36436>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Marco" , "19" , "Lombardo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36448>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Trevisi" , "elettivo" , "2022-10-13" , "19" , "Antonio Salvatore" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22963>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Massimo" , "elettivo" , "2022-10-13" , "19" , "Garavaglia" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/25411>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Rossomando" , "elettivo" , "2022-10-13" , "Anna" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36412>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Nocco" , "2022-10-13" , "19" , "Vita Maria" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36424>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Etelwardo" , "elettivo" , "2022-10-13" , "19" , "Sigismondi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33027>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Giusy" , "elettivo" , "2022-10-13" , "19" , "Versace" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32645>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Iannone" , "Antonio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/227>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Silvio" , "elettivo" , "2022-10-13" , "19" , "Berlusconi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33070>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Borghi" , "elettivo" , "Claudio" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29185>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Erika" , "Stefani" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29040>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Astorre" , "elettivo" , "2022-10-13" , "Bruno" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/29270>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Lorenzo" , "Basso" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32851>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Anna" , "19" , "Bilotti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36394>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Raffaele" , "De Rosa" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36382>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Paola" , "elettivo" , "2022-10-13" , "19" , "Ambrogio" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36425>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Elena" , "elettivo" , "2022-10-13" , "19" , "Sironi" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22877>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Bongiorno" , "Giulia" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36437>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Tino" , "Magni" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32590>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Lucia" , "elettivo" , "2022-10-13" , "19" , "Borgonzoni" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/28550>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Giuliomaria" , "elettivo" , "2022-10-13" , "19" , "Terzi Di Sant'Agata" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36401>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "Irto" , "2022-10-13" , "19" , "Nicola" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36413>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Occhiuto" , "elettivo" , "2022-10-13" , "19" , "Mario" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/33038>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Paolo" , "elettivo" , "2022-10-13" , "19" , "Zangrillo" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36449>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Tubetti" , "19" , "Francesca" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32898>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "De Carlo" , "elettivo" , "2022-10-13" , "19" , "Luca" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32644>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Guidolin" , "elettivo" , "2022-10-13" , "19" , "Barbara" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/422>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Roberto" , "elettivo" , "2022-10-13" , "19" , "Calderoli" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36395>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "Della Porta" , "Costanzo" , "elettivo" , "2022-10-13" , "19" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/36383>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Renato" , "Ancorotti" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/32862>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "19" , "Gianluca" , "Cantalamessa" .
+
+<C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl#mytable/22918>
+      a       <http://xmlns.com/foaf/0.1/Person> ;
+      <http://www.w3.org/2000/01/rdf-schema#label>
+              "elettivo" , "2022-10-13" , "Peppe" , "19" , "De Cristofaro" .

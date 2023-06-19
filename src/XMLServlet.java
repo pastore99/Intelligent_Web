@@ -22,7 +22,7 @@ public class XMLServlet extends HttpServlet {
         Query q = QueryFactory.create(querySparqlString);
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();
         String xmlString = ResultSetFormatter.asXMLString(rs);
-        File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//src//query.xml");
+        File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//query.xml");
         try (FileWriter fileWriter = new FileWriter(f)) {
             fileWriter.write(xmlString);
             System.out.println("File XML creato correttamente.");
@@ -31,7 +31,7 @@ public class XMLServlet extends HttpServlet {
         }
 
         m.close();
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/main.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
 
     }

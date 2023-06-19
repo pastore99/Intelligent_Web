@@ -1,4 +1,4 @@
-@prefix map: <file:/outfile.ttl#> .
+@prefix map: <file:/C:/Users/rocco/OneDrive%20-%20Università%20di%20Salerno/Downloads/d2r-server-0.7/d2r-server-0.7/outfile.ttl#> .
 @prefix db: <> .
 @prefix vocab: <http://localhost:2020/vocab/resource/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -6,8 +6,6 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
 @prefix jdbc: <http://d2rq.org/terms/jdbc/> .
-@prefix d2r: <http://sites.wiwiss.fu-berlin.de/suhl/bizer/d2r-server/config.rdf#> .
-@prefix meta: <http://www4.wiwiss.fu-berlin.de/bizer/d2r-server/metadata#> .
 
 map:database a d2rq:Database;
 	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
@@ -18,97 +16,171 @@ map:database a d2rq:Database;
 	jdbc:zeroDateTimeBehavior "convertToNull";
 	.
 
-# Table mytable
-map:mytable a d2rq:ClassMap;
+# Table film
+map:film a d2rq:ClassMap;
 	d2rq:dataStorage map:database;
-	d2rq:uriPattern "mytable/@@mytable.senatore|urlify@@";
-	d2rq:class vocab:mytable;
-	d2rq:classDefinitionLabel "mytable";
+	d2rq:uriPattern "film/@@film.id|urlify@@";
+	d2rq:class vocab:film;
+	d2rq:classDefinitionLabel "film";
 	.
-map:mytable__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
+map:film__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
 	d2rq:property rdfs:label;
-	d2rq:pattern "mytable #@@mytable.senatore@@";
+	d2rq:pattern "film #@@film.id@@";
 	.
-map:mytable_senatore a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_senatore;
-	d2rq:propertyDefinitionLabel "mytable senatore";
-	d2rq:column "mytable.senatore";
+map:film_id a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_id;
+	d2rq:propertyDefinitionLabel "film id";
+	d2rq:column "film.id";
 	.
-map:mytable_nome a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_nome;
-	d2rq:propertyDefinitionLabel "mytable nome";
-	d2rq:column "mytable.nome";
+map:film_tipo a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_tipo;
+	d2rq:propertyDefinitionLabel "film tipo";
+	d2rq:column "film.tipo";
 	.
-map:mytable_cognome a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_cognome;
-	d2rq:propertyDefinitionLabel "mytable cognome";
-	d2rq:column "mytable.cognome";
+map:film_titolo a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_titolo;
+	d2rq:propertyDefinitionLabel "film titolo";
+	d2rq:column "film.titolo";
 	.
-map:mytable_sesso a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_sesso;
-	d2rq:propertyDefinitionLabel "mytable sesso";
-	d2rq:column "mytable.sesso";
+map:film_direttore a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_direttore;
+	d2rq:propertyDefinitionLabel "film direttore";
+	d2rq:column "film.direttore";
 	.
-map:mytable_legislatura a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_legislatura;
-	d2rq:propertyDefinitionLabel "mytable legislatura";
-	d2rq:column "mytable.legislatura";
+map:film_cast a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_cast;
+	d2rq:propertyDefinitionLabel "film cast";
+	d2rq:column "film.cast";
+	.
+map:film_anno_uscita a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_anno_uscita;
+	d2rq:propertyDefinitionLabel "film anno_uscita";
+	d2rq:column "film.anno_uscita";
 	d2rq:datatype xsd:int;
 	.
-map:mytable_inizioMandato a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_inizioMandato;
-	d2rq:propertyDefinitionLabel "mytable inizioMandato";
-	d2rq:column "mytable.inizioMandato";
+map:film_valutazione a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_valutazione;
+	d2rq:propertyDefinitionLabel "film valutazione";
+	d2rq:column "film.valutazione";
+	.
+map:film_durata a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_durata;
+	d2rq:propertyDefinitionLabel "film durata";
+	d2rq:column "film.durata";
+	.
+map:film_genere a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_genere;
+	d2rq:propertyDefinitionLabel "film genere";
+	d2rq:column "film.genere";
+	.
+map:film_descrizione a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:film;
+	d2rq:property vocab:film_descrizione;
+	d2rq:propertyDefinitionLabel "film descrizione";
+	d2rq:column "film.descrizione";
+	.
+
+# Table senatori
+map:senatori a d2rq:ClassMap;
+	d2rq:dataStorage map:database;
+	d2rq:uriPattern "senatori/@@senatori.senatore|urlify@@";
+	d2rq:class vocab:senatori;
+	d2rq:classDefinitionLabel "senatori";
+	.
+map:senatori__label a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property rdfs:label;
+	d2rq:pattern "senatori #@@senatori.senatore@@";
+	.
+map:senatori_senatore a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_senatore;
+	d2rq:propertyDefinitionLabel "senatori senatore";
+	d2rq:column "senatori.senatore";
+	.
+map:senatori_nome a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_nome;
+	d2rq:propertyDefinitionLabel "senatori nome";
+	d2rq:column "senatori.nome";
+	.
+map:senatori_cognome a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_cognome;
+	d2rq:propertyDefinitionLabel "senatori cognome";
+	d2rq:column "senatori.cognome";
+	.
+map:senatori_sesso a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_sesso;
+	d2rq:propertyDefinitionLabel "senatori sesso";
+	d2rq:column "senatori.sesso";
+	.
+map:senatori_legislatura a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_legislatura;
+	d2rq:propertyDefinitionLabel "senatori legislatura";
+	d2rq:column "senatori.legislatura";
+	d2rq:datatype xsd:int;
+	.
+map:senatori_inizioMandato a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_inizioMandato;
+	d2rq:propertyDefinitionLabel "senatori inizioMandato";
+	d2rq:column "senatori.inizioMandato";
 	d2rq:datatype xsd:date;
 	.
-map:mytable_fineMandato a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_fineMandato;
-	d2rq:propertyDefinitionLabel "mytable fineMandato";
-	d2rq:column "mytable.fineMandato";
+map:senatori_fineMandato a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_fineMandato;
+	d2rq:propertyDefinitionLabel "senatori fineMandato";
+	d2rq:column "senatori.fineMandato";
 	.
-map:mytable_tipoMandato a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_tipoMandato;
-	d2rq:propertyDefinitionLabel "mytable tipoMandato";
-	d2rq:column "mytable.tipoMandato";
+map:senatori_tipoMandato a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_tipoMandato;
+	d2rq:propertyDefinitionLabel "senatori tipoMandato";
+	d2rq:column "senatori.tipoMandato";
 	.
-map:mytable_tipoFineMandato a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_tipoFineMandato;
-	d2rq:propertyDefinitionLabel "mytable tipoFineMandato";
-	d2rq:column "mytable.tipoFineMandato";
+map:senatori_tipoFineMandato a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_tipoFineMandato;
+	d2rq:propertyDefinitionLabel "senatori tipoFineMandato";
+	d2rq:column "senatori.tipoFineMandato";
 	.
-map:mytable_dataNascita a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_dataNascita;
-	d2rq:propertyDefinitionLabel "mytable dataNascita";
-	d2rq:column "mytable.dataNascita";
+map:senatori_dataNascita a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_dataNascita;
+	d2rq:propertyDefinitionLabel "senatori dataNascita";
+	d2rq:column "senatori.dataNascita";
 	d2rq:datatype xsd:date;
 	.
-map:mytable_cittaNascita a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_cittaNascita;
-	d2rq:propertyDefinitionLabel "mytable cittaNascita";
-	d2rq:column "mytable.cittaNascita";
+map:senatori_cittaNascita a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_cittaNascita;
+	d2rq:propertyDefinitionLabel "senatori cittaNascita";
+	d2rq:column "senatori.cittaNascita";
 	.
-map:mytable_provinciaNascita a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_provinciaNascita;
-	d2rq:propertyDefinitionLabel "mytable provinciaNascita";
-	d2rq:column "mytable.provinciaNascita";
+map:senatori_provinciaNascita a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_provinciaNascita;
+	d2rq:propertyDefinitionLabel "senatori provinciaNascita";
+	d2rq:column "senatori.provinciaNascita";
 	.
-map:mytable_nazioneNascita a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:mytable;
-	d2rq:property vocab:mytable_nazioneNascita;
-	d2rq:propertyDefinitionLabel "mytable nazioneNascita";
-	d2rq:column "mytable.nazioneNascita";
+map:senatori_nazioneNascita a d2rq:PropertyBridge;
+	d2rq:belongsToClassMap map:senatori;
+	d2rq:property vocab:senatori_nazioneNascita;
+	d2rq:propertyDefinitionLabel "senatori nazioneNascita";
+	d2rq:column "senatori.nazioneNascita";
 	.
 

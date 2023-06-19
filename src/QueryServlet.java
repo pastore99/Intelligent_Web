@@ -13,7 +13,7 @@ import java.util.List;
 
 @WebServlet(name = "QueryServlet", value = "/QueryServlet")
 public class QueryServlet extends HttpServlet {
-    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
+    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile2.ttl");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -21,6 +21,7 @@ public class QueryServlet extends HttpServlet {
         System.out.println(querySparqlString);
         Query q = QueryFactory.create(querySparqlString);
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();
+        System.out.println(rs.hasNext());
         List<String> risultati = new ArrayList<>();
         List<String> variabili = rs.getResultVars();
         int i =0;
@@ -48,7 +49,7 @@ public class QueryServlet extends HttpServlet {
 
         req.setAttribute("variabili", variabili);
         req.setAttribute("risultati", risultati);
-        req.getRequestDispatcher("main.jsp").forward(req, resp);
+        req.getRequestDispatcher("index.jsp").forward(req, resp);
 
 
 

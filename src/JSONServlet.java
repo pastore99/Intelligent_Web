@@ -44,7 +44,7 @@ public class JSONServlet extends HttpServlet {
                 String json = new Gson().toJson(risultati);
                 System.out.println(json);
 
-                File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//src//query.json");
+                File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//query.json");
                 try (FileWriter fileWriter = new FileWriter(f)) {
             fileWriter.write(json);
             System.out.println("File XML creato correttamente.");
@@ -69,7 +69,7 @@ public class JSONServlet extends HttpServlet {
 //        }
 
         m.close();
-        RequestDispatcher dispatcher = req.getRequestDispatcher("/main.jsp");
+        RequestDispatcher dispatcher = req.getRequestDispatcher("/index.jsp");
         dispatcher.forward(req, resp);
 
     }

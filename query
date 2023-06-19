@@ -1,0 +1,22 @@
+PREFIX vocab: <http://localhost:2020/vocab/resource/>
+SELECT DISTINCT ?senatore ?nome ?cognome ?inizioMandato ?legislatura ?tipoMandato
+WHERE {
+    ?senatore a vocab:senatori.
+    ?senatore vocab:senatori_nome ?nome.
+    ?senatore vocab:senatori_cognome ?cognome.
+    ?senatore vocab:senatori_legislatura ?legislatura.
+    ?senatore vocab:senatori_inizioMandato ?inizioMandato.
+    ?senatore vocab:senatori_tipoMandato ?tipoMandato.
+} ORDER BY ?cognome ?nome
+
+
+PREFIX vocab: <http://localhost:2020/vocab/resource/>
+SELECT DISTINCT ?film ?titolo ?tipo ?genere ?durata ?descrizione
+WHERE {
+    ?film a vocab:film.
+    ?film vocab:film_titolo ?titolo.
+    ?film vocab:film_tipo ?tipo.
+    ?film vocab:film_genere ?genere.
+    ?film vocab:film_durata ?durata.
+    ?film vocab:film_descrizione ?descrizione.
+} ORDER BY ?titolo
