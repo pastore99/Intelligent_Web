@@ -13,11 +13,15 @@ import java.util.List;
 
 @WebServlet(name = "QueryServlet", value = "/QueryServlet")
 public class QueryServlet extends HttpServlet {
-    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile2.ttl");
+    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile2.ttl");
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String querySparqlString = req.getParameter("querySparql");
+        String querySparqlString = "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
+                "PREFIX owl: <http://www.w3.org/2002/07/owl#>\n" +
+                "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>\n" +
+                "PREFIX vocab: <http://localhost:2020/vocab/resource/>\n" +
+                "PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\n" + req.getParameter("querySparql");
         System.out.println(querySparqlString);
         Query q = QueryFactory.create(querySparqlString);
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();

@@ -24,7 +24,16 @@
                 <button type="button" class="btn btn-secondary w-100 mt-3" onclick="addText('Query 2')">Query 2</button>
             </div>
         <div class="col-8">
-          <label for="query">Inserisci la tua query:</label>
+          <label for="query" style="font-size: x-large">Inserisci la tua query:</label>
+            <div class="container">
+                <p style="font-size: xx-small; color: darkgrey">
+                    PREFIX rdf:&lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt;<br>
+                    PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;<br>
+                    PREFIX xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt;<br>
+                    PREFIX vocab: &lt;http://localhost:2020/vocab/resource/&gt;<br>
+                    PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;<br>
+                </p>
+            </div>
           <textarea id="queryArea" name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
         </div>
           <div class="col-2">
