@@ -7,479 +7,503 @@
 @prefix d2rq: <http://www.wiwiss.fu-berlin.de/suhl/bizer/D2RQ/0.1#> .
 @prefix jdbc: <http://d2rq.org/terms/jdbc/> .
 
+
+
 map:database a d2rq:Database;
-	d2rq:jdbcDriver "com.mysql.jdbc.Driver";
-	d2rq:jdbcDSN "jdbc:mysql://localhost:3306/classicmodels";
-	d2rq:username "root";
-	d2rq:password "root";
-	jdbc:autoReconnect "true";
-	jdbc:zeroDateTimeBehavior "convertToNull";
-	.
+    d2rq:jdbcDriver "com.mysql.jdbc.Driver";
+    d2rq:jdbcDSN "jdbc:mysql://localhost:3306/classicmodels";
+    d2rq:username "root";
+    d2rq:password "root";
+    jdbc:autoReconnect "true";
+    jdbc:zeroDateTimeBehavior "convertToNull";
+    .
+
+
 
 # Table customers
 map:customers a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "customers/@@customers.customerNumber@@";
-	d2rq:class vocab:customers;
-	d2rq:classDefinitionLabel "customers";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "customers/@@customers.customerNumber@@";
+    d2rq:class vocab:customers;
+    d2rq:classDefinitionLabel "customers";
+    .
 map:customers__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property rdfs:label;
-	d2rq:pattern "customers #@@customers.customerNumber@@";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property rdfs:label;
+    d2rq:pattern "customers #@@customers.customerNumber@@";
+    .
 map:customers_customerNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_customerNumber;
-	d2rq:propertyDefinitionLabel "customers customerNumber";
-	d2rq:column "customers.customerNumber";
-	d2rq:datatype xsd:int;
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_customerNumber;
+    d2rq:propertyDefinitionLabel "customers customerNumber";
+    d2rq:column "customers.customerNumber";
+    d2rq:datatype xsd:int;
+    .
 map:customers_customerName a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_customerName;
-	d2rq:propertyDefinitionLabel "customers customerName";
-	d2rq:column "customers.customerName";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_customerName;
+    d2rq:propertyDefinitionLabel "customers customerName";
+    d2rq:column "customers.customerName";
+    .
 map:customers_contactLastName a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_contactLastName;
-	d2rq:propertyDefinitionLabel "customers contactLastName";
-	d2rq:column "customers.contactLastName";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_contactLastName;
+    d2rq:propertyDefinitionLabel "customers contactLastName";
+    d2rq:column "customers.contactLastName";
+    .
 map:customers_contactFirstName a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_contactFirstName;
-	d2rq:propertyDefinitionLabel "customers contactFirstName";
-	d2rq:column "customers.contactFirstName";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_contactFirstName;
+    d2rq:propertyDefinitionLabel "customers contactFirstName";
+    d2rq:column "customers.contactFirstName";
+    .
 map:customers_phone a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_phone;
-	d2rq:propertyDefinitionLabel "customers phone";
-	d2rq:column "customers.phone";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_phone;
+    d2rq:propertyDefinitionLabel "customers phone";
+    d2rq:column "customers.phone";
+    .
 map:customers_addressLine1 a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_addressLine1;
-	d2rq:propertyDefinitionLabel "customers addressLine1";
-	d2rq:column "customers.addressLine1";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_addressLine1;
+    d2rq:propertyDefinitionLabel "customers addressLine1";
+    d2rq:column "customers.addressLine1";
+    .
 map:customers_addressLine2 a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_addressLine2;
-	d2rq:propertyDefinitionLabel "customers addressLine2";
-	d2rq:column "customers.addressLine2";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_addressLine2;
+    d2rq:propertyDefinitionLabel "customers addressLine2";
+    d2rq:column "customers.addressLine2";
+    .
 map:customers_city a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_city;
-	d2rq:propertyDefinitionLabel "customers city";
-	d2rq:column "customers.city";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_city;
+    d2rq:propertyDefinitionLabel "customers city";
+    d2rq:column "customers.city";
+    .
 map:customers_state a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_state;
-	d2rq:propertyDefinitionLabel "customers state";
-	d2rq:column "customers.state";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_state;
+    d2rq:propertyDefinitionLabel "customers state";
+    d2rq:column "customers.state";
+    .
 map:customers_postalCode a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_postalCode;
-	d2rq:propertyDefinitionLabel "customers postalCode";
-	d2rq:column "customers.postalCode";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_postalCode;
+    d2rq:propertyDefinitionLabel "customers postalCode";
+    d2rq:column "customers.postalCode";
+    .
 map:customers_country a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_country;
-	d2rq:propertyDefinitionLabel "customers country";
-	d2rq:column "customers.country";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_country;
+    d2rq:propertyDefinitionLabel "customers country";
+    d2rq:column "customers.country";
+    .
 map:customers_creditLimit a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_creditLimit;
-	d2rq:propertyDefinitionLabel "customers creditLimit";
-	d2rq:column "customers.creditLimit";
-	d2rq:datatype xsd:decimal;
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_creditLimit;
+    d2rq:propertyDefinitionLabel "customers creditLimit";
+    d2rq:column "customers.creditLimit";
+    d2rq:datatype xsd:decimal;
+    .
 map:customers_salesRepEmployeeNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:customers;
-	d2rq:property vocab:customers_salesRepEmployeeNumber;
-	d2rq:refersToClassMap map:employees;
-	d2rq:join "customers.salesRepEmployeeNumber => employees.employeeNumber";
-	.
+    d2rq:belongsToClassMap map:customers;
+    d2rq:property vocab:customers_salesRepEmployeeNumber;
+    d2rq:refersToClassMap map:employees;
+    d2rq:join "customers.salesRepEmployeeNumber => employees.employeeNumber";
+    .
+
+
 
 # Table employees
 map:employees a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "employees/@@employees.employeeNumber@@";
-	d2rq:class vocab:employees;
-	d2rq:classDefinitionLabel "employees";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "employees/@@employees.employeeNumber@@";
+    d2rq:class vocab:employees;
+    d2rq:classDefinitionLabel "employees";
+    .
 map:employees__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property rdfs:label;
-	d2rq:pattern "employees #@@employees.employeeNumber@@";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property rdfs:label;
+    d2rq:pattern "employees #@@employees.employeeNumber@@";
+    .
+map:employees_employeeNumber a d2rq:PropertyBridge;
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_employeeNumber;
+    d2rq:propertyDefinitionLabel "employees employeeNumber";
+    d2rq:column "employees.employeeNumber";
+    d2rq:datatype xsd:int;
+.
 map:employees_lastName a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_lastName;
-	d2rq:propertyDefinitionLabel "employees lastName";
-	d2rq:column "employees.lastName";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_lastName;
+    d2rq:propertyDefinitionLabel "employees lastName";
+    d2rq:column "employees.lastName";
+    .
 map:employees_firstName a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_firstName;
-	d2rq:propertyDefinitionLabel "employees firstName";
-	d2rq:column "employees.firstName";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_firstName;
+    d2rq:propertyDefinitionLabel "employees firstName";
+    d2rq:column "employees.firstName";
+    .
 map:employees_extension a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_extension;
-	d2rq:propertyDefinitionLabel "employees extension";
-	d2rq:column "employees.extension";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_extension;
+    d2rq:propertyDefinitionLabel "employees extension";
+    d2rq:column "employees.extension";
+    .
 map:employees_email a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_email;
-	d2rq:propertyDefinitionLabel "employees email";
-	d2rq:column "employees.email";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_email;
+    d2rq:propertyDefinitionLabel "employees email";
+    d2rq:column "employees.email";
+    .
 map:employees_jobTitle a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_jobTitle;
-	d2rq:propertyDefinitionLabel "employees jobTitle";
-	d2rq:column "employees.jobTitle";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_jobTitle;
+    d2rq:propertyDefinitionLabel "employees jobTitle";
+    d2rq:column "employees.jobTitle";
+    .
 map:employees_officeCode a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_officeCode;
-	d2rq:refersToClassMap map:offices;
-	d2rq:join "employees.officeCode => offices.officeCode";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_officeCode;
+    d2rq:refersToClassMap map:offices;
+    d2rq:join "employees.officeCode => offices.officeCode";
+    .
 map:employees_reportsTo a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:employees;
-	d2rq:property vocab:employees_reportsTo;
-	d2rq:refersToClassMap map:employees;
-	d2rq:alias "employees AS employees__alias";
-	d2rq:join "employees.reportsTo => employees__alias.employeeNumber";
-	.
+    d2rq:belongsToClassMap map:employees;
+    d2rq:property vocab:employees_reportsTo;
+    d2rq:refersToClassMap map:employees;
+    d2rq:alias "employees AS employees__alias";
+    d2rq:join "employees.reportsTo => employees__alias.employeeNumber";
+    .
+
+
 
 # Table offices
 map:offices a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "offices/@@offices.officeCode|urlify@@";
-	d2rq:class vocab:offices;
-	d2rq:classDefinitionLabel "offices";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "offices/@@offices.officeCode|urlify@@";
+    d2rq:class vocab:offices;
+    d2rq:classDefinitionLabel "offices";
+    .
 map:offices__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property rdfs:label;
-	d2rq:pattern "offices #@@offices.officeCode@@";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property rdfs:label;
+    d2rq:pattern "offices #@@offices.officeCode@@";
+    .
 map:offices_officeCode a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_officeCode;
-	d2rq:propertyDefinitionLabel "offices officeCode";
-	d2rq:column "offices.officeCode";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_officeCode;
+    d2rq:propertyDefinitionLabel "offices officeCode";
+    d2rq:column "offices.officeCode";
+    .
 map:offices_city a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_city;
-	d2rq:propertyDefinitionLabel "offices city";
-	d2rq:column "offices.city";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_city;
+    d2rq:propertyDefinitionLabel "offices city";
+    d2rq:column "offices.city";
+    .
 map:offices_phone a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_phone;
-	d2rq:propertyDefinitionLabel "offices phone";
-	d2rq:column "offices.phone";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_phone;
+    d2rq:propertyDefinitionLabel "offices phone";
+    d2rq:column "offices.phone";
+    .
 map:offices_addressLine1 a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_addressLine1;
-	d2rq:propertyDefinitionLabel "offices addressLine1";
-	d2rq:column "offices.addressLine1";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_addressLine1;
+    d2rq:propertyDefinitionLabel "offices addressLine1";
+    d2rq:column "offices.addressLine1";
+    .
 map:offices_addressLine2 a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_addressLine2;
-	d2rq:propertyDefinitionLabel "offices addressLine2";
-	d2rq:column "offices.addressLine2";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_addressLine2;
+    d2rq:propertyDefinitionLabel "offices addressLine2";
+    d2rq:column "offices.addressLine2";
+    .
 map:offices_state a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_state;
-	d2rq:propertyDefinitionLabel "offices state";
-	d2rq:column "offices.state";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_state;
+    d2rq:propertyDefinitionLabel "offices state";
+    d2rq:column "offices.state";
+    .
 map:offices_country a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_country;
-	d2rq:propertyDefinitionLabel "offices country";
-	d2rq:column "offices.country";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_country;
+    d2rq:propertyDefinitionLabel "offices country";
+    d2rq:column "offices.country";
+    .
 map:offices_postalCode a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_postalCode;
-	d2rq:propertyDefinitionLabel "offices postalCode";
-	d2rq:column "offices.postalCode";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_postalCode;
+    d2rq:propertyDefinitionLabel "offices postalCode";
+    d2rq:column "offices.postalCode";
+    .
 map:offices_territory a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:offices;
-	d2rq:property vocab:offices_territory;
-	d2rq:propertyDefinitionLabel "offices territory";
-	d2rq:column "offices.territory";
-	.
+    d2rq:belongsToClassMap map:offices;
+    d2rq:property vocab:offices_territory;
+    d2rq:propertyDefinitionLabel "offices territory";
+    d2rq:column "offices.territory";
+    .
+
+
 
 # Table orderdetails
 map:orderdetails a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "orderdetails/@@orderdetails.orderNumber@@/@@orderdetails.productCode|urlify@@";
-	d2rq:class vocab:orderdetails;
-	d2rq:classDefinitionLabel "orderdetails";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "orderdetails/@@orderdetails.orderNumber@@/@@orderdetails.productCode|urlify@@";
+    d2rq:class vocab:orderdetails;
+    d2rq:classDefinitionLabel "orderdetails";
+    .
 map:orderdetails__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orderdetails;
-	d2rq:property rdfs:label;
-	d2rq:pattern "orderdetails #@@orderdetails.orderNumber@@/@@orderdetails.productCode@@";
-	.
+    d2rq:belongsToClassMap map:orderdetails;
+    d2rq:property rdfs:label;
+    d2rq:pattern "orderdetails #@@orderdetails.orderNumber@@/@@orderdetails.productCode@@";
+    .
 map:orderdetails_quantityOrdered a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orderdetails;
-	d2rq:property vocab:orderdetails_quantityOrdered;
-	d2rq:propertyDefinitionLabel "orderdetails quantityOrdered";
-	d2rq:column "orderdetails.quantityOrdered";
-	d2rq:datatype xsd:int;
-	.
+    d2rq:belongsToClassMap map:orderdetails;
+    d2rq:property vocab:orderdetails_quantityOrdered;
+    d2rq:propertyDefinitionLabel "orderdetails quantityOrdered";
+    d2rq:column "orderdetails.quantityOrdered";
+    d2rq:datatype xsd:int;
+    .
 map:orderdetails_priceEach a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orderdetails;
-	d2rq:property vocab:orderdetails_priceEach;
-	d2rq:propertyDefinitionLabel "orderdetails priceEach";
-	d2rq:column "orderdetails.priceEach";
-	d2rq:datatype xsd:decimal;
-	.
+    d2rq:belongsToClassMap map:orderdetails;
+    d2rq:property vocab:orderdetails_priceEach;
+    d2rq:propertyDefinitionLabel "orderdetails priceEach";
+    d2rq:column "orderdetails.priceEach";
+    d2rq:datatype xsd:decimal;
+    .
 map:orderdetails_orderLineNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orderdetails;
-	d2rq:property vocab:orderdetails_orderLineNumber;
-	d2rq:propertyDefinitionLabel "orderdetails orderLineNumber";
-	d2rq:column "orderdetails.orderLineNumber";
-	d2rq:datatype xsd:short;
-	.
+    d2rq:belongsToClassMap map:orderdetails;
+    d2rq:property vocab:orderdetails_orderLineNumber;
+    d2rq:propertyDefinitionLabel "orderdetails orderLineNumber";
+    d2rq:column "orderdetails.orderLineNumber";
+    d2rq:datatype xsd:short;
+    .
 map:orderdetails_productCode a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orderdetails;
-	d2rq:property vocab:orderdetails_productCode;
-	d2rq:refersToClassMap map:products;
-	d2rq:join "orderdetails.productCode => products.productCode";
-	.
+    d2rq:belongsToClassMap map:orderdetails;
+    d2rq:property vocab:orderdetails_productCode;
+    d2rq:refersToClassMap map:products;
+    d2rq:join "orderdetails.productCode => products.productCode";
+    .
 map:orderdetails_orderNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orderdetails;
-	d2rq:property vocab:orderdetails_orderNumber;
-	d2rq:refersToClassMap map:orders;
-	d2rq:join "orderdetails.orderNumber => orders.orderNumber";
-	.
+    d2rq:belongsToClassMap map:orderdetails;
+    d2rq:property vocab:orderdetails_orderNumber;
+    d2rq:refersToClassMap map:orders;
+    d2rq:join "orderdetails.orderNumber => orders.orderNumber";
+    .
+
+
 
 # Table orders
 map:orders a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "orders/@@orders.orderNumber@@";
-	d2rq:class vocab:orders;
-	d2rq:classDefinitionLabel "orders";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "orders/@@orders.orderNumber@@";
+    d2rq:class vocab:orders;
+    d2rq:classDefinitionLabel "orders";
+    .
 map:orders__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property rdfs:label;
-	d2rq:pattern "orders #@@orders.orderNumber@@";
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property rdfs:label;
+    d2rq:pattern "orders #@@orders.orderNumber@@";
+    .
 map:orders_orderNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_orderNumber;
-	d2rq:propertyDefinitionLabel "orders orderNumber";
-	d2rq:column "orders.orderNumber";
-	d2rq:datatype xsd:int;
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_orderNumber;
+    d2rq:propertyDefinitionLabel "orders orderNumber";
+    d2rq:column "orders.orderNumber";
+    d2rq:datatype xsd:int;
+    .
 map:orders_orderDate a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_orderDate;
-	d2rq:propertyDefinitionLabel "orders orderDate";
-	d2rq:column "orders.orderDate";
-	d2rq:datatype xsd:date;
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_orderDate;
+    d2rq:propertyDefinitionLabel "orders orderDate";
+    d2rq:column "orders.orderDate";
+    d2rq:datatype xsd:date;
+    .
 map:orders_requiredDate a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_requiredDate;
-	d2rq:propertyDefinitionLabel "orders requiredDate";
-	d2rq:column "orders.requiredDate";
-	d2rq:datatype xsd:date;
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_requiredDate;
+    d2rq:propertyDefinitionLabel "orders requiredDate";
+    d2rq:column "orders.requiredDate";
+    d2rq:datatype xsd:date;
+    .
 map:orders_shippedDate a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_shippedDate;
-	d2rq:propertyDefinitionLabel "orders shippedDate";
-	d2rq:column "orders.shippedDate";
-	d2rq:datatype xsd:date;
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_shippedDate;
+    d2rq:propertyDefinitionLabel "orders shippedDate";
+    d2rq:column "orders.shippedDate";
+    d2rq:datatype xsd:date;
+    .
 map:orders_status a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_status;
-	d2rq:propertyDefinitionLabel "orders status";
-	d2rq:column "orders.status";
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_status;
+    d2rq:propertyDefinitionLabel "orders status";
+    d2rq:column "orders.status";
+    .
 map:orders_comments a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_comments;
-	d2rq:propertyDefinitionLabel "orders comments";
-	d2rq:column "orders.comments";
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_comments;
+    d2rq:propertyDefinitionLabel "orders comments";
+    d2rq:column "orders.comments";
+    .
 map:orders_customerNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:orders;
-	d2rq:property vocab:orders_customerNumber;
-	d2rq:refersToClassMap map:customers;
-	d2rq:join "orders.customerNumber => customers.customerNumber";
-	.
+    d2rq:belongsToClassMap map:orders;
+    d2rq:property vocab:orders_customerNumber;
+    d2rq:refersToClassMap map:customers;
+    d2rq:join "orders.customerNumber => customers.customerNumber";
+    .
+
+
 
 # Table payments
 map:payments a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "payments/@@payments.checkNumber|urlify@@/@@payments.customerNumber@@";
-	d2rq:class vocab:payments;
-	d2rq:classDefinitionLabel "payments";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "payments/@@payments.checkNumber|urlify@@/@@payments.customerNumber@@";
+    d2rq:class vocab:payments;
+    d2rq:classDefinitionLabel "payments";
+    .
 map:payments__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:payments;
-	d2rq:property rdfs:label;
-	d2rq:pattern "payments #@@payments.checkNumber@@/@@payments.customerNumber@@";
-	.
+    d2rq:belongsToClassMap map:payments;
+    d2rq:property rdfs:label;
+    d2rq:pattern "payments #@@payments.checkNumber@@/@@payments.customerNumber@@";
+    .
 map:payments_checkNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:payments;
-	d2rq:property vocab:payments_checkNumber;
-	d2rq:propertyDefinitionLabel "payments checkNumber";
-	d2rq:column "payments.checkNumber";
-	.
+    d2rq:belongsToClassMap map:payments;
+    d2rq:property vocab:payments_checkNumber;
+    d2rq:propertyDefinitionLabel "payments checkNumber";
+    d2rq:column "payments.checkNumber";
+    .
 map:payments_paymentDate a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:payments;
-	d2rq:property vocab:payments_paymentDate;
-	d2rq:propertyDefinitionLabel "payments paymentDate";
-	d2rq:column "payments.paymentDate";
-	d2rq:datatype xsd:date;
-	.
+    d2rq:belongsToClassMap map:payments;
+    d2rq:property vocab:payments_paymentDate;
+    d2rq:propertyDefinitionLabel "payments paymentDate";
+    d2rq:column "payments.paymentDate";
+    d2rq:datatype xsd:date;
+    .
 map:payments_amount a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:payments;
-	d2rq:property vocab:payments_amount;
-	d2rq:propertyDefinitionLabel "payments amount";
-	d2rq:column "payments.amount";
-	d2rq:datatype xsd:decimal;
-	.
+    d2rq:belongsToClassMap map:payments;
+    d2rq:property vocab:payments_amount;
+    d2rq:propertyDefinitionLabel "payments amount";
+    d2rq:column "payments.amount";
+    d2rq:datatype xsd:decimal;
+    .
 map:payments_customerNumber a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:payments;
-	d2rq:property vocab:payments_customerNumber;
-	d2rq:refersToClassMap map:customers;
-	d2rq:join "payments.customerNumber => customers.customerNumber";
-	.
+    d2rq:belongsToClassMap map:payments;
+    d2rq:property vocab:payments_customerNumber;
+    d2rq:refersToClassMap map:customers;
+    d2rq:join "payments.customerNumber => customers.customerNumber";
+    .
+
+
 
 # Table productlines
 map:productlines a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "productlines/@@productlines.productLine|urlify@@";
-	d2rq:class vocab:productlines;
-	d2rq:classDefinitionLabel "productlines";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "productlines/@@productlines.productLine|urlify@@";
+    d2rq:class vocab:productlines;
+    d2rq:classDefinitionLabel "productlines";
+    .
 map:productlines__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:productlines;
-	d2rq:property rdfs:label;
-	d2rq:pattern "productlines #@@productlines.productLine@@";
-	.
+    d2rq:belongsToClassMap map:productlines;
+    d2rq:property rdfs:label;
+    d2rq:pattern "productlines #@@productlines.productLine@@";
+    .
 map:productlines_productLine a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:productlines;
-	d2rq:property vocab:productlines_productLine;
-	d2rq:propertyDefinitionLabel "productlines productLine";
-	d2rq:column "productlines.productLine";
-	.
+    d2rq:belongsToClassMap map:productlines;
+    d2rq:property vocab:productlines_productLine;
+    d2rq:propertyDefinitionLabel "productlines productLine";
+    d2rq:column "productlines.productLine";
+    .
 map:productlines_textDescription a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:productlines;
-	d2rq:property vocab:productlines_textDescription;
-	d2rq:propertyDefinitionLabel "productlines textDescription";
-	d2rq:column "productlines.textDescription";
-	.
+    d2rq:belongsToClassMap map:productlines;
+    d2rq:property vocab:productlines_textDescription;
+    d2rq:propertyDefinitionLabel "productlines textDescription";
+    d2rq:column "productlines.textDescription";
+    .
 map:productlines_htmlDescription a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:productlines;
-	d2rq:property vocab:productlines_htmlDescription;
-	d2rq:propertyDefinitionLabel "productlines htmlDescription";
-	d2rq:column "productlines.htmlDescription";
-	.
+    d2rq:belongsToClassMap map:productlines;
+    d2rq:property vocab:productlines_htmlDescription;
+    d2rq:propertyDefinitionLabel "productlines htmlDescription";
+    d2rq:column "productlines.htmlDescription";
+    .
 map:productlines_image a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:productlines;
-	d2rq:property vocab:productlines_image;
-	d2rq:propertyDefinitionLabel "productlines image";
-	d2rq:column "productlines.image";
-	.
+    d2rq:belongsToClassMap map:productlines;
+    d2rq:property vocab:productlines_image;
+    d2rq:propertyDefinitionLabel "productlines image";
+    d2rq:column "productlines.image";
+    .
+
+
 
 # Table products
 map:products a d2rq:ClassMap;
-	d2rq:dataStorage map:database;
-	d2rq:uriPattern "products/@@products.productCode|urlify@@";
-	d2rq:class vocab:products;
-	d2rq:classDefinitionLabel "products";
-	.
+    d2rq:dataStorage map:database;
+    d2rq:uriPattern "products/@@products.productCode|urlify@@";
+    d2rq:class vocab:products;
+    d2rq:classDefinitionLabel "products";
+    .
 map:products__label a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property rdfs:label;
-	d2rq:pattern "products #@@products.productCode@@";
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property rdfs:label;
+    d2rq:pattern "products #@@products.productCode@@";
+    .
 map:products_productCode a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_productCode;
-	d2rq:propertyDefinitionLabel "products productCode";
-	d2rq:column "products.productCode";
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_productCode;
+    d2rq:propertyDefinitionLabel "products productCode";
+    d2rq:column "products.productCode";
+    .
 map:products_productName a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_productName;
-	d2rq:propertyDefinitionLabel "products productName";
-	d2rq:column "products.productName";
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_productName;
+    d2rq:propertyDefinitionLabel "products productName";
+    d2rq:column "products.productName";
+    .
 map:products_productScale a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_productScale;
-	d2rq:propertyDefinitionLabel "products productScale";
-	d2rq:column "products.productScale";
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_productScale;
+    d2rq:propertyDefinitionLabel "products productScale";
+    d2rq:column "products.productScale";
+    .
 map:products_productVendor a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_productVendor;
-	d2rq:propertyDefinitionLabel "products productVendor";
-	d2rq:column "products.productVendor";
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_productVendor;
+    d2rq:propertyDefinitionLabel "products productVendor";
+    d2rq:column "products.productVendor";
+    .
 map:products_productDescription a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_productDescription;
-	d2rq:propertyDefinitionLabel "products productDescription";
-	d2rq:column "products.productDescription";
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_productDescription;
+    d2rq:propertyDefinitionLabel "products productDescription";
+    d2rq:column "products.productDescription";
+    .
 map:products_quantityInStock a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_quantityInStock;
-	d2rq:propertyDefinitionLabel "products quantityInStock";
-	d2rq:column "products.quantityInStock";
-	d2rq:datatype xsd:short;
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_quantityInStock;
+    d2rq:propertyDefinitionLabel "products quantityInStock";
+    d2rq:column "products.quantityInStock";
+    d2rq:datatype xsd:short;
+    .
 map:products_buyPrice a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_buyPrice;
-	d2rq:propertyDefinitionLabel "products buyPrice";
-	d2rq:column "products.buyPrice";
-	d2rq:datatype xsd:decimal;
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_buyPrice;
+    d2rq:propertyDefinitionLabel "products buyPrice";
+    d2rq:column "products.buyPrice";
+    d2rq:datatype xsd:decimal;
+    .
 map:products_MSRP a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_MSRP;
-	d2rq:propertyDefinitionLabel "products MSRP";
-	d2rq:column "products.MSRP";
-	d2rq:datatype xsd:decimal;
-	.
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_MSRP;
+    d2rq:propertyDefinitionLabel "products MSRP";
+    d2rq:column "products.MSRP";
+    d2rq:datatype xsd:decimal;
+    .
 map:products_productLine a d2rq:PropertyBridge;
-	d2rq:belongsToClassMap map:products;
-	d2rq:property vocab:products_productLine;
-	d2rq:refersToClassMap map:productlines;
-	d2rq:join "products.productLine => productlines.productLine";
-	.
-
+    d2rq:belongsToClassMap map:products;
+    d2rq:property vocab:products_productLine;
+    d2rq:refersToClassMap map:productlines;
+    d2rq:join "products.productLine => productlines.productLine";
+    .

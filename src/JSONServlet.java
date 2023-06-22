@@ -19,7 +19,7 @@ import java.util.List;
 public class JSONServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
+        Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile2.ttl");
         String querySparqlString = req.getParameter("contenuto");
         System.out.println(querySparqlString);
         Query q = QueryFactory.create(querySparqlString);

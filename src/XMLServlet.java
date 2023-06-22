@@ -16,13 +16,13 @@ import java.io.IOException;
 public class XMLServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile.ttl");
+        Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile2.ttl");
         String querySparqlString = req.getParameter("contenuto");
         System.out.println(querySparqlString);
         Query q = QueryFactory.create(querySparqlString);
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();
         String xmlString = ResultSetFormatter.asXMLString(rs);
-        File f = new File("C://Users//rocco//IdeaProjects//Intelligent_Web//query.xml");
+        File f = new File("C://Users//Carmine//IdeaProjects//Intelligent_Web//query.xml");
         try (FileWriter fileWriter = new FileWriter(f)) {
             fileWriter.write(xmlString);
             System.out.println("File XML creato correttamente.");

@@ -20,8 +20,8 @@
     <div class="col-6">
         <div class="row align-items-end">
             <div class="col-2">
-                <button type="button" class="btn btn-secondary w-100" onclick="addText('Query 1')">Query 1</button>
-                <button type="button" class="btn btn-secondary w-100 mt-3" onclick="addText('Query 2')">Query 2</button>
+                <button type="button" class="btn btn-secondary w-100" onclick="scriviQuery3()">Acquisto di ogni cliente</button>
+                <button type="button" class="btn btn-secondary w-100 mt-3" onclick="scriviQuery4()">???</button>
             </div>
         <div class="col-8">
           <label for="query" style="font-size: x-large">Inserisci la tua query:</label>
@@ -37,8 +37,8 @@
           <textarea id="queryArea" name="querySparql" type="text" class="form-control"  style="height: 100px;" id="query" placeholder="Inserisci la tua query"></textarea>
         </div>
           <div class="col-2">
-              <button type="button" class="btn btn-secondary w-100" onclick="addText('Query 1')">Query 1</button>
-              <button type="button" class="btn btn-secondary w-100 mt-3" onclick="addText('Query 2')">Query 2</button>
+              <button type="button" class="btn btn-secondary w-100" onclick="scriviQuery1()">Prodotti pi&ugrave; venduti</button>
+              <button type="button" class="btn btn-secondary w-100 mt-3" onclick="scriviQuery2()">Dipendenti con prodotti venduti</button>
           </div>
         </div>
         <div class="col-12 text-center mt-4">
@@ -106,10 +106,65 @@
 </div>
 
 <script>
-  // document.getElementById("esegui").addEventListener("click", eseguiQuery);
-  function addText(text) {
-    document.getElementById('query').value = text;
+    //1.Ottenere i prodotti più venduti, in ordine decrescente di quantità vendute:
+  function scriviQuery1() {
+      var testo = "SELECT ?productCode ?productName (SUM(?quantityOrdered) AS ?totalQuantitySold)\n" +
+      "WHERE {\n " +
+          "?product vocab:products_productCode ?productCode ;\n" +
+      "vocab:products_productName ?productName . \n" +
+          "?orderDetail vocab:orderdetails_productCode ?product;\n" +
+          "vocab:orderdetails_quantityOrdered ?quantityOrdered .\n" +
+          "}\n" +
+          "GROUP BY ?productCode ?productName\n" +
+          "ORDER BY DESC(?totalQuantitySold)\n";
+      document.getElementById("queryArea").value = testo;
   }
+//2.Ottenere l'elenco dei dipendenti con il numero di prodotti venduti da ciascun dipendente:
+    function scriviQuery2() {
+        var testo ="SELECT ?employeeNumber ?firstName ?lastName (COUNT(?productCode) AS ?totalProductsSold)\n" +
+        "WHERE { \n" +
+            "?employee vocab:employees_employeeNumber ?employeeNumber ;\n" +
+            "vocab:employees_firstName ?firstName ;\n" +
+        "vocab:employees_lastName ?lastName . \n" +
+            "?customer vocab:customers_salesRepEmployeeNumber ?employee ;\n" +
+        "vocab:customers_customerNumber ?customerNumber . \n" +
+            "?order vocab:orders_customerNumber ?customer ;\n" +
+        "vocab:orders_orderNumber ?orderNumber . \n" +
+            "?orderDetail vocab:orderdetails_orderNumber ?order ;\n" +
+            "vocab:orderdetails_productCode ?productCode .\n" +
+            "}GROUP BY ?employeeNumber ?firstName ?lastName\n";
+        document.getElementById("queryArea").value = testo;
+    }
+    //3.ottenere acquisto di ogni cliente
+    function scriviQuery3() {
+        var testo ="SELECT ?customerNumber ?customerName (SUM(?quantity * ?price) AS ?totalPurchases)" +
+        "WHERE { " +
+            "?customer   vocab:customers_customerNumber ?customerNumber ;\n" +
+        "vocab:customers_customerName ?customerName . \n" +
+            "?order vocab:orders_customerNumber ?customer;\n" +
+        "vocab:orders_orderNumber ?orderNumber . \n" +
+            "?orderDetail vocab:orderdetails_orderNumber ?order ;\n" +
+            "vocab:orderdetails_quantityOrdered ?quantity \n;" +
+            "vocab:orderdetails_priceEach ?price .\n" +
+            "}\n" +
+            "GROUP BY ?customerNumber ?customerName\n"+
+            "ORDER BY DESC(?totalPurchases)";
+            document.getElementById("queryArea").value = testo;
+    }
+    function scriviQuery4() {
+        var testo ="SELECT ?productLine (COUNT(DISTINCT ?product) AS ?totalProducts) (COUNT(DISTINCT ?order) AS ?totalOrders)\n" +
+        "WHERE {\n " +
+        "?productLine vocab:productlines_productLine ?line .\n " +
+            "?product vocab:products_productLine ?productLine ;\n" +
+        "vocab:products_productCode ?productCode . \n" +
+            "?orderDetail vocab:orderdetails_productCode ?product ;\n" +
+        "vocab:orderdetails_orderNumber ?order . \n" +
+            "?order vocab:orders_orderNumber ?orderNumber .\n" +
+            "}\n" +
+            "GROUP BY ?productLine\n" +
+            "ORDER BY DESC(?totalOrders)\n";
+            document.getElementById("queryArea").value = testo;
+    }
 
   document.getElementById('queryForm').addEventListener('submit', function(event) {
     event.preventDefault();
