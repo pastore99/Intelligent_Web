@@ -14,11 +14,11 @@ import java.util.List;
 @WebServlet(name = "RisorsaServlet", value = "/RisorsaServlet")
 public class RisorsaServlet extends HttpServlet {
 
-    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile2.ttl");
+    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/outfile2.ttl");
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String senatore = req.getParameter("senatore");
-        String querySparqlString = "SELECT DISTINCT ?property ?hasValue\n" +
+        String querySparqlString = "SELECT DISTINCT ?property ?hasValue ?isValueOf\n" +
                 "WHERE {\n" +
                 "  {  <"+ senatore +"> ?property ?hasValue }\n" +
                 "  UNION\n" +
