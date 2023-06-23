@@ -14,7 +14,7 @@ import java.util.List;
 @WebServlet(name = "RisorsaServlet", value = "/RisorsaServlet")
 public class RisorsaServlet extends HttpServlet {
 
-    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/Mapping.ttl");
+    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/Mapping.ttl");
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String dettagli = req.getParameter("dettagli");
@@ -36,7 +36,10 @@ public class RisorsaServlet extends HttpServlet {
         while (rs.hasNext()){
             QuerySolution row = rs.nextSolution();
             for(String e : variabili) {
-                if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#integer")) {
+                if(row.get(e) == null){
+                    risultati.add("-");
+                }
+                else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#integer")) {
                     risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#integer", " "));
                 } else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#int")){
                     risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#int"," "));
