@@ -6,7 +6,7 @@ import java.util.List;
 
 public class query1 {
     public static void main(String[] args){
-        Model m = new ModelD2RQ("C://Users//rocco//IdeaProjects//Intelligent_Web//outfile2.ttl");
+        Model m = new ModelD2RQ("C://Users//rocco//IdeaProjects//Intelligent_Web//Mapping.ttl");
         //
         String queryString = """
                 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>

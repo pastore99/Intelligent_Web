@@ -26,9 +26,7 @@
           <tr>
             <%
               List<String> variabili = (List<String>) request.getAttribute("variabili");
-              List<String> risultati = (List<String>) request.getAttribute("risultatisenatore");
-              System.out.println(variabili + "jsp var*********");
-              System.out.println(risultati + "jsp ris************");
+              List<String> risultati = (List<String>) request.getAttribute("risultatidettagli");
               if (variabili != null){
                 for(String temp : variabili){
             %>
@@ -58,6 +56,9 @@
   </tbody>
   </table> <%} %>
     </div>
+</div>
+</div>
+  </div>
 </div>
 </body>
 </html>

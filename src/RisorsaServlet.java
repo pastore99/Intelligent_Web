@@ -14,50 +14,43 @@ import java.util.List;
 @WebServlet(name = "RisorsaServlet", value = "/RisorsaServlet")
 public class RisorsaServlet extends HttpServlet {
 
-    Model m = new ModelD2RQ("C:/Users/Carmine/IdeaProjects/Intelligent_Web/outfile2.ttl");
+    Model m = new ModelD2RQ("C:/Users/rocco/IdeaProjects/Intelligent_Web/Mapping.ttl");
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String senatore = req.getParameter("senatore");
+        String dettagli = req.getParameter("dettagli");
+
         String querySparqlString = "SELECT DISTINCT ?property ?hasValue ?isValueOf\n" +
                 "WHERE {\n" +
-                "  {  <"+ senatore +"> ?property ?hasValue }\n" +
+                "  {  <"+ dettagli +"> ?property ?hasValue }\n" +
                 "  UNION\n" +
-                "  { ?isValueOf ?property <"+ senatore +"> }\n" +
+                "  { ?isValueOf ?property <"+ dettagli +"> }\n" +
                 "}\n" +
                 "ORDER BY (!BOUND(?hasValue)) ?property ?hasValue ?isValueOf";
-        System.out.println(senatore);
+
         Query q = QueryFactory.create(querySparqlString);
         ResultSet rs = QueryExecutionFactory.create(q, m).execSelect();
+
         List<String> risultati = new ArrayList<>();
         List<String> variabili = rs.getResultVars();
+
         while (rs.hasNext()){
             QuerySolution row = rs.nextSolution();
             for(String e : variabili) {
-                System.out.println(e + "    " + row.get(e) + " ********* elemento");
-                if (row.get(e) == null){
-                    risultati.add("");
-            } else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#date")){
-                    risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#date"," "));
-                }else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#int")) {
-                    risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#int", " "));
+                if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#integer")) {
+                    risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#integer", " "));
+                } else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#int")){
+                    risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#int"," "));
+                }else if(row.get(e).toString().contains("^^http://www.w3.org/2001/XMLSchema#decimal")) {
+                    risultati.add(row.get(e).toString().replace("^^http://www.w3.org/2001/XMLSchema#decimal", " "));
                 } else {
                     risultati.add(row.get(e).toString());
-                }}}
-//                if(row.get(e) == null)
-//                    risultati.add("");
-//                else
-//                    risultati.add(row.get(e).toString());
-//            }}
-//        while (rs.hasNext()){
-//            QuerySolution row = rs.nextSolution();
-//            System.out.println(row);
-//            risultati.add(row.toString());
-//        }
-        System.out.println(risultati);
-        System.out.println(variabili);
+                }
+            }
+        }
+
         req.setAttribute("variabili", variabili);
-        req.setAttribute("risultatisenatore", risultati);
-        req.getRequestDispatcher("senatore.jsp").forward(req, resp);
+        req.setAttribute("risultatidettagli", risultati);
+        req.getRequestDispatcher("dettagli.jsp").forward(req, resp);
     }
 
     @Override

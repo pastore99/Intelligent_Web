@@ -1,5 +1,4 @@
-@prefix map: <file:/C:/Users/rocco/OneDrive%20-%20Università%20di%20Salerno/Downloads/d2r-server-0.7/d2r-server-0.7/outfile.ttl#> .
-@prefix db: <> .
+@prefix map: <file:/C:/Users/rocco/IdeaProjects/Intelligent_Web/Mapping.ttl#> .
 @prefix vocab: <http://localhost:2020/vocab/resource/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .

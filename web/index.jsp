@@ -45,7 +45,6 @@
             <button id="esegui" type="submit" class="btn btn-primary center" value="Invia" formaction="QueryServlet">Esegui query</button>
             <button id="btn1" class="btn btn-primary center" onclick="inviaContenuto('/XMLServlet')">XML</button>
             <button id="btn2" class="btn btn-primary center" onclick="inviaContenuto('/JSONServlet')">JSON</button>
-<%--            <button id="btn3" class="btn btn-primary center" onclick="inviaContenuto('/TTLServlet')">TTL</button>--%>
         </div>
 
 
@@ -75,24 +74,16 @@
               </thead>
               <tbody>
               <%
-
                 if (risultati != null){
                     int j=0;
                   while (j < risultati.size()){
                       int i = 0  ;%>
                    <tr>
                 <%
-
                     while( i++ < variabili.size()){
-//                        if(risultati.get(j).contains("^^http://www.w3.org/2001/XMLSchema#date")){
-//                            risultati.get(j).replace("http://www.w3.org/2001/XMLSchema#date"," ");
-//                        }
-//                        if(risultati.get(j).contains("http://www.w3.org/2001/XMLSchema#int")){
-//                            risultati.get(j).replace("http://www.w3.org/2001/XMLSchema#int"," ");
-//                        }
               %>
                     <%if (risultati.get(j).contains("C:/")) {%>
-              <td> <a href="/RisorsaServlet?senatore=<%=risultati.get(j).replace("#","%23")%>"> <%=risultati.get(j++)%> </a> </td>
+              <td> <a href="/RisorsaServlet?dettagli=<%=risultati.get(j).replace("#","%23")%>"> <%=risultati.get(j++)%> </a> </td>
                       <%}else{%>
               <td><%=risultati.get(j++)%></td>
                   <%} }%>
@@ -151,7 +142,7 @@
             "ORDER BY DESC(?totalPurchases)";
             document.getElementById("queryArea").value = testo;
     }
-    //dati product line
+    //4.Dati product line
     function scriviQuery4() {
         var testo ="SELECT ?productLine (COUNT(DISTINCT ?product) AS ?totalProducts) (COUNT(DISTINCT ?order) AS ?totalOrders)\n" +
         "WHERE {\n " +
@@ -167,17 +158,7 @@
             document.getElementById("queryArea").value = testo;
     }
 
-  document.getElementById('queryForm').addEventListener('submit', function(event) {
-    event.preventDefault();
-    var query = document.getElementById('query').value;
-
-    // Effettua l'elaborazione della query o l'invio al server
-    // ...
-    displayQueryResult('Risultato della query: ' + query);
-    document.getElementById('query').value = '';
-  });
-
-  function showAlert(x) {
+    function showAlert(x) {
       alert("File" + x + " creato correttamente");
   }
 
