@@ -21,7 +21,7 @@
         <div class="row align-items-end">
             <div class="col-2">
                 <button type="button" class="btn btn-secondary w-100" onclick="scriviQuery3()">Acquisto di ogni cliente</button>
-                <button type="button" class="btn btn-secondary w-100 mt-3" onclick="scriviQuery4()">???</button>
+                <button type="button" class="btn btn-secondary w-100 mt-3" onclick="scriviQuery4()">Dati ProductLine</button>
             </div>
         <div class="col-8">
           <label for="query" style="font-size: x-large">Inserisci la tua query:</label>
@@ -151,6 +151,7 @@
             "ORDER BY DESC(?totalPurchases)";
             document.getElementById("queryArea").value = testo;
     }
+    //dati product line
     function scriviQuery4() {
         var testo ="SELECT ?productLine (COUNT(DISTINCT ?product) AS ?totalProducts) (COUNT(DISTINCT ?order) AS ?totalOrders)\n" +
         "WHERE {\n " +

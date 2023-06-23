@@ -1,0 +1,1088 @@
+<?xml version="1.0"?>
+<sparql xmlns="http://www.w3.org/2005/sparql-results#">
+  <head>
+    <variable name="customerNumber"/>
+    <variable name="customerName"/>
+    <variable name="totalPurchases"/>
+  </head>
+  <results>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">141</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Euro+ Shopping Channel</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">820689.54</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">124</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Mini Gifts Distributors Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">591827.34</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">114</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Australian Collectors, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">180585.07</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">151</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Muscle Machine Inc</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">177913.95</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">119</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>La Rochelle Gifts</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">158573.12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">148</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Dragon Souveniers, Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">156251.03</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">323</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Down Under Souveniers, Inc</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">154622.08</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">131</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Land of Toys Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">149085.15</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">187</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>AV Stores, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">148410.09</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">450</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>The Sharp Gifts Warehouse</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">143536.27</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">382</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Salzburg Collectables</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">137480.07</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">496</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Kelly's Gift Shop</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">137460.79</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">276</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Anna's Decorations, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">137034.22</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">282</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Souveniers And Things Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">133907.12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">321</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Corporate Gift Ideas Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">132340.78</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">146</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Saveley &amp; Henriot, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">130305.35</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">145</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Danish Wholesale Imports</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">129085.12</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">278</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Rovelli Gifts</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">127529.69</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">353</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Reims Collectables</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">126983.19</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">386</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>L'ordine Souveniers</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">125505.57</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">448</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Scandinavian Gift Ideas</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">120943.53</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">363</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Online Diecast Creations Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">116449.29</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">458</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Corrida Auto Replicas, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">112440.09</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">298</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Vida Sport, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">108777.92</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">166</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Handji Gifts&amp; Co</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">107746.75</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">201</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>UK Collectables, Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">106610.72</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">398</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Tokyo Collectables, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">105548.73</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">161</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Technics Stores Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">104545.22</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">157</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Diecast Classics Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">104358.69</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">121</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Baane Mini Imports</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">104224.79</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">334</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Suominen Souveniers</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">103896.74</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">320</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Mini Creations Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">101872.52</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">167</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Herkku Gifts</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">97562.47</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">311</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Oulu Toy Supplies, Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">95706.15</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">186</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Toys of Finland, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">95546.46</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">175</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Gift Depot Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">95424.63</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">357</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>GiftsForHim.com</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">94431.76</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">205</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Toys4GrownUps.com</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">93803.30</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">286</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Marta's Replicas Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">90545.37</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">412</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Extreme Desk Decorations, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">90332.38</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">227</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Heintze Collectables</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">89909.80</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">259</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Toms Spezialitäten, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">89223.14</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">462</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>FunGiftIdeas.com</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">88627.49</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">385</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Cruz &amp; Sons Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">87468.30</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">172</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>La Corne D'abondance, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">86553.52</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">406</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Auto Canal+ Petit</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">86436.97</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">362</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Gifts4AllAges.com</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">84340.32</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">249</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Amica Models &amp; Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">82223.23</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">328</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Tekni Collectables Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">81806.55</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">324</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Stylish Desk Decors, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">80556.73</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">239</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Collectable Mini Designs Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">80375.24</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">112</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Signal Gift Stores</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">80180.98</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">319</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Mini Classics</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">78432.16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">486</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Motor Mint Distributors Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">77726.59</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">128</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Blauer See Auto, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">75937.76</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">209</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Mini Caravy</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">75859.32</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">379</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Collectables For Less Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">73533.65</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">181</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Vitachrome Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">72497.64</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">240</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>giftsbymail.co.uk</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">71783.75</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">350</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Marseille Mini Autos</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">71547.53</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">314</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Petit Auto</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">70851.58</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">455</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Super Scale Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">70378.65</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">202</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Canadian Gift Exchange Network</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">70122.19</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">424</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Classic Legends Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">69214.33</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">299</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Norway Gifts By Mail, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">69059.04</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">233</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Québec Home Shopping Network</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">68977.67</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">216</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Enaco Distributors</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">68520.47</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">250</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Lyon Souveniers</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">67659.19</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">260</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Royal Canadian Collectables, Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">66812.00</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">129</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Mini Wheels Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">66710.56</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">144</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Volvo Model Replicas, Co</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">66694.82</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">495</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Diecast Collectables</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">65541.74</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">177</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Osaka Souveniers Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">62361.22</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">171</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Daedalus Designs Imports</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">61781.70</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">242</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Alpha Cognac</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">60483.36</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">256</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Auto Associés &amp; Cie.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">58876.41</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">339</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Classic Gift Ideas, Inc</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">57939.34</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">471</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Australian Collectables, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">55866.02</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">204</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Online Mini Collectables</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">55577.26</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">333</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Australian Gift Network, Co</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">55190.16</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">452</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Mini Auto Werke</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">51059.99</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">484</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Iberia Gift Imports, Corp.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">50987.85</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">447</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Gift Ideas Corp.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">49967.78</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">189</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Clover Collections, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">49898.27</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">344</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>CAF Imports</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">46751.14</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">211</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>King Kong Collectables, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">45480.79</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">475</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>West Coast Collectables Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">43748.72</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">487</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Signal Collectibles Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">42570.37</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">347</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Men 'R' US Retailers, Ltd.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">41506.19</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">173</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Cambridge Collectables Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">32198.69</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">415</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Bavarian Collectables Imports, Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">31310.09</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">489</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Double Decker Gift Stores, Ltd</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">29586.15</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">456</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Microscale Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">29230.43</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">381</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Royale Belge</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">29217.18</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">473</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Frau da Collezione</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">25358.32</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">103</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Atelier graphique</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">22314.36</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">198</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Auto-Moto Classics Inc.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">21554.26</literal>
+      </binding>
+    </result>
+    <result>
+      <binding name="customerNumber">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#int">219</literal>
+      </binding>
+      <binding name="customerName">
+        <literal>Boards &amp; Toys Co.</literal>
+      </binding>
+      <binding name="totalPurchases">
+        <literal datatype="http://www.w3.org/2001/XMLSchema#decimal">7918.60</literal>
+      </binding>
+    </result>
+  </results>
+</sparql>
